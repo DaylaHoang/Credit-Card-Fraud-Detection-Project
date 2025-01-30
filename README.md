@@ -144,7 +144,7 @@ model = DecisionTreeClassifier()
 model.fit(X_train, y_train)
 ```
 
-### 4. XGBoost (Best Model)
+### 4. XGBoost
 
 ```python
 from xgboost import XGBClassifier
