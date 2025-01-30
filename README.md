@@ -178,16 +178,16 @@ print(f'ROC-AUC Score: {roc_auc_score(y_test, y_pred)}')
 
 ## Results
 
-| Model | Sampling Type | Accuracy | Precision | Recall | F1-Score | ROC-AUC |
-| --- | --- | --- | --- | --- | --- | --- |
-| Logistic Regression | Undersampling | 97.06% | 5.02% | 90.41% | 9.51% | 0.9374 |
-| Logistic Regression | Oversampling | 97.79% | 6.53% | 89.73% | 12.17% | 0.9376 |
-| Decision Tree | Undersampling | 96.57% | 4.21% | 87.67% | 8.04% | 0.9213 |
-| Decision Tree | Oversampling | 98.37% | 8.41% | 86.30% | 15.32% | 0.9234 |
-| KNN | Undersampling | 98.91% | 12.26% | 87.67% | 21.51% | 0.9329 |
-| KNN | Oversampling | 99.86% | 57.14% | 84.93% | 68.32% | 0.9241 |
-| XGBoost | Default | 99.96% | 95.12% | 80.14% | 86.99% | 0.9006 |
-| XGBoost | Scaled Features | 99.95% | 90.41% | 84.20% | 87.21% | 0.9265 |
+| Model | Sampling Type | Precision | Recall | F1-Score | ROC-AUC |
+| --- | --- | --- | --- | --- | --- |
+| Logistic Regression | Undersampling | 5.02% | 90.41% | 9.51% | 0.9374 |
+| Logistic Regression | Oversampling | 6.53% | 89.73% | 12.17% | 0.9376 |
+| Decision Tree | Undersampling | 4.21% | 87.67% | 8.04% | 0.9213 |
+| Decision Tree | Oversampling | 8.41% | 86.30% | 15.32% | 0.9234 |
+| KNN | Undersampling | 12.26% | 87.67% | 21.51% | 0.9329 |
+| KNN | Oversampling | 57.14% | 84.93% | 68.32% | 0.9241 |
+| XGBoost | Default | 95.12% | 80.14% | 86.99% | 0.9006 |
+| XGBoost | Scaled Features | 90.41% | 84.20% | 87.21% | 0.9265 |
 - **We can see that XGBoost with scaled features** achieved the best balance between precision, recall, and F1-Score and while other models performed well, their precision was significantly lower, making them less reliable for fraud detection.
 
 ---
