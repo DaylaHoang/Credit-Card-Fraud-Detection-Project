@@ -67,7 +67,7 @@ credit_card.describe()
 
 → No missing values! But the fraud cases were **way too few** so I need to tackle later.
 
-1. **Visualizing Class Imbalance**
+2. **Visualizing Class Imbalance**
 
 ```python
 sns.countplot(x='Class', data=credit_card)
@@ -122,7 +122,7 @@ I used **80% training, 20% testing** to evaluate my model properly.
 
 I trained **four models** to compare their performance:
 
-**1. Logistic Regression**
+### 1. Logistic Regression
 
 ```python
 from sklearn.linear_model import LogisticRegression
