@@ -11,8 +11,6 @@ Below is the list of the models that are used for this project:
 - **Decision Tree**
 - **XGBoost** (spoiler: this one performed the best!)
 
-Fraud detection is a tricky problem because fraudulent transactions make up only **0.17%** of all transactions. That’s why I had to deal with **class imbalance** using oversampling and undersampling techniques. My goal was to build a model that **maximizes recall** because missing fraud cases is worse than false alarms.
-
 The problem of fraud detection is tricky, as fraudulent transactions make up only **0.17%** of all transactions. This meant I needed to address class imbalance by using oversampling and undersampling techniques. My goal was to build a model that maximizes recall since missing fraud cases is worse than false alarms.
 
 ---
