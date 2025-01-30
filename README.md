@@ -158,7 +158,6 @@ model.fit(X_train, y_train)
 
 I use:
 
-- **Accuracy** to find the overall correctness
 - **Precision** – How many detected frauds are actually frauds?
 - **Recall** – How many frauds were correctly detected?
 - **F1-Score** – Balance between Precision & Recall
