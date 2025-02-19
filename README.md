@@ -196,4 +196,3 @@ This project taught me so much about the following:
 - Fraud detection is a highly imbalanced problem, resampling will be required
 - Recall is more important than Accuracy to minimize undetected fraud cases.
 - XGBoost gives the best performance, yielding high precision, recall, and AUC score.
-- For future improvements, I will consider using hyperparameter tuning for better model performance and maybe apply neural networks (Deep Learning) for more complex fraud patterns.
